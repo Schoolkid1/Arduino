@@ -1,3 +1,5 @@
+//https://brightspace.adainforma.tk/lessons/inf/bp4_hwi_01/#43
+
 //Stroom naar led.
 void setup()
 {
@@ -10,7 +12,7 @@ void setup()
   pinMode(7, OUTPUT);
   pinMode(6, OUTPUT);
 }
-//delays tussen knipperen (heen en terug).
+//loop gecreëerd van rechts naar links en daarna van links naar rechts
 void loop(){
   knipperrechts();
   knipperlinks();
@@ -20,6 +22,7 @@ void loop(){
 void knipperrechts() {
   //start loop
   digitalWrite(13, HIGH);
+//delays tussen knipperen (heen en terug).
   				delay(100);
   digitalWrite(12, HIGH);
                delay(100);
