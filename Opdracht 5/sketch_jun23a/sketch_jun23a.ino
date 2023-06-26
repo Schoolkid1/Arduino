@@ -26,7 +26,7 @@ void loop()
   
   Serial.println(Temp);
   //delay om leesbaar te maken
-  delay(5000);
+  delay(3000);
   
 }
 

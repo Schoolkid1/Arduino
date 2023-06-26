@@ -40,7 +40,7 @@ void loop()
   int val = analogRead(potPin);
  
   //map functie aanmaken
-  int draaiknop = map(val, 0, 1023, 7, 14);
+  int draaiknop = map(val, 0, 950, 7, 14);
    
   //monitoren potentiometer waarde
   Serial.println(draaiknop);
